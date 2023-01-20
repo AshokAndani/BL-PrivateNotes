@@ -1,0 +1,24 @@
+// one time setup
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+// 
+git init
+git remote add origin link_here
+git branch -M bdfbfb
+git add TextFile.txt
+git commit -m "initial commit"
+git push -u origin master
+// about branching
+git branch new_branch_Name
+git checkout Existing_branch_name
+git checkoout -b new_branch   // creates and checkouts to new branch
+// what if there are new branches in remote
+ git fetch --all
+// to check the status of git
+git status
+// stash
+steps:
+add something to a file
+then 
+git stash
+git stash pop
