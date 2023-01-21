@@ -30,3 +30,9 @@ git status
 //then 
 git stash
 git stash pop
+
+//for multiple stashes
+git stash list  // to list all the stashes
+git stash clear // to clear all the stashes
+git stash push -m "proper message" // to stash with a message
+git stash apply [StashIndex]  // to apply a particular stash
