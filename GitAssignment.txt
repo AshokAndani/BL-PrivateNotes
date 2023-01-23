@@ -36,3 +36,10 @@ git stash list  // to list all the stashes
 git stash clear // to clear all the stashes
 git stash push -m "proper message" // to stash with a message
 git stash apply [StashIndex]  // to apply a particular stash
+
+// to get tge latest changes from remote repo
+git pull origin <branch_Name>
+
+// if the Parent branch has new commits which are not available in Child branch
+// then we have to merge the parent branch into the child branch.
+git merge Parent   // while being in child branch.
